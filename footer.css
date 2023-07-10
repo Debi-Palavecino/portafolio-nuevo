@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+footer{
+    background-color: violet;
+    width: 100%;
+    height: 380;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    text-align:start;
+    margin-top: 1em;
+}
+.sc-item{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+
+}
+.foot-sc-item{
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 3rem;
+    margin-right: 1.5rem;
+    border:black 0.12rem solid;
+    text-align: center;
+}
+.fa-twitter{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-twitter:hover{
+    color: rgb(1, 0, 2);
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-linkedin{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-linkedin:hover{
+    color: rgb(1, 0, 2);
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-github-alt{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-github-alt:hover{
+    color: rgb(1, 0, 2);
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-at{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.fa-at:hover{
+    color: rgb(1, 0, 2);
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.final{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(75, 72, 72);
+    text-shadow: rgb(10, 9, 9) 1rem;
+}
+h6{
+    margin-bottom: 1.5em;
+}
+
+/**
+flex-wrap:wrap (pasra que lo mande abajo)
+.container-foot{
+    display: flex;
+    margin-bottom: 0em;
+    background-color: darkgoldenrod;
+    padding-bottom: 0; 
+}
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-top: 4%;
+    font-size: 1rem;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+Lorena Delgado13:30
+boton 
+
+.aheader-contacto{
+    color:white;
+    background-color: rgb(106, 95, 211); 
+    border-radius: 6.25em;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+}
+
+.aheader-contacto:hover{
+    background-color: cornflowerblue;
+    color: brown;   
+}
+todos los elementos del menu (menos el contacto)
+Lorena Delgado13:40
+} 
+.nombre-ape{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5.5em;
+    justify-content: space-around;  
+}
+input, textarea{
+    border-radius: 1.25em;
+    height: 3em;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    outline: none;
+    box-shadow: 1px 1px 8px goldenrod;
+    padding-left: 1.3em;
+    font-family: 'Poppins', sans-serif;
+}
+Lorena Delgado13:41
+
+input:hover{
+border: 1px solid rgb(106, 95, 211);
+}
+Lorena Delgado13:43
+.boton-enviar{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+   
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    width: 9.68em;
+    height: 3.12em;
+    border-radius: 6.25em;
+    text-decoration: none;
+    background-color:  hsl(46, 92%, 65%);
+    padding-left: 0.9em;
+}
+
+.btn:hover{
+    background-color: rgb(106, 95, 211);
+    color: white;
+}
+**/

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.contact-section{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+.colum{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.contact{
+    margin-top: 2em;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 80px 60px;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    width: 100%;
+
+}
+.section-description{
+    width: 100%;
+    color: black;
+    text-align:left;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.links{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: medium;
+
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    float: right;
+    margin-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Section-Title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+form input form textarea{
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+}
+button{
+    display: block;
+	padding: 10px 45px 10px 45px;
+	font-size: 1em; 
+	color: 	white;
+    width: 15em;
+    height: 2.5em;
+    border: 0.15rem solid rgb(68, 67, 67);
+    background-color: rgb(169, 73, 189);
+    border-radius: 1rem;
+}
+button:hover{
+    color: black;
+    background-color: rgb(236, 71, 96);
+    border-style: solid 0.5rem rgb(240, 125, 240);
+    border-radius: 1em;
+}
+input[type=text]{
+    width: 19em;
+    height: 2.5em;
+    border: 0.15rem solid rgb(68, 67, 67);
+    background-color: rgb(209, 198, 198);
+    border-radius: 1rem;
+    margin-top: 0%;
+}
+input[type=email]{
+    width: 19em;
+    height: 2.5em;
+    border: 0.15rem solid rgb(68, 67, 67);
+    background-color: rgb(209, 198, 198);
+    border-radius: 1rem;
+    margin-top:0%;
+}
+textarea{
+    width: 19em;
+    height: 10em;
+    border: 0.15rem solid rgb(68, 67, 67);
+    background-color: rgb(209, 198, 198);
+    border-radius: 1rem;
+}
+input[type=email]:valid{
+    width: 19em;
+    height: 2.5em;
+    border: 0.15rem solid rgb(4, 121, 29);
+    background-color: rgb(53, 201, 73);
+    border-radius: 1rem;
+    margin-top:0%;
+}
+/*Media*/
+@media screen and (max-width:600px){
+    .contact-section{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content:center ;
+    }
+    .registro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,900&display=swap');
+.section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-info{
+    width: 100%;
+    max-width: 31.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.greeting-name{
+    color:#2e2e31;
+    font-size: 3.12em;
+    margin-top: 0;
+    margin-bottom: 0.313em;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-name{
+    margin-top: 0;
+    margin-bottom: 0.313em;
+    color: #8338ec;
+    font-weight:800;
+    font-size: 3.75em;
+}
+.descript{
+    color: #616161;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.about-img{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+img{
+    display: block;
+    width: 100%;
+    padding-left: 40px;
+}
+/* grid */
+
+h2{
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 0.375em;
+    line-height: 1.2;
+}
+
+.principio{
+    background-color: rgb(140, 21, 224);
+    border-style: solid 0.5rem purple;
+    border-radius: 1rem;
+}
+.principio:hover{
+    color: black;
+    background-color: rgb(236, 71, 96);
+    border-style: solid 0.5rem rgb(240, 125, 240);
+    border-radius: 1em;
+}
+.skill-description{
+    max-width: 400px;
+}
+p{
+    line-height: 1.4;
+}
+*{
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: black;
+}
+
+/*media*/
+@media screen and (max-width:600px){
+    .main-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .about-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .principio{
+        display: none;
+    }
+}

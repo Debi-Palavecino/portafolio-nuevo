@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.icons-section{
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(186, 130, 238);
+}
+.column-content{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.section-title{
+    font-size: 2.81em;
+    font-weight: 800;
+    color: black;
+    margin-top: 2.5em;
+}
+.skills-description{
+    font: 500 large 'Montserrat', sans-serif;
+    margin: 2em auto;
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-items: center;
+    margin-bottom: 1.5em;
+}
+.skill-grid-item{
+    display: flex;
+    color: #2e2e31;
+    border: 1px solid #dddfe5; 
+    border-radius: 10%;
+    margin-left: 3em;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 230px;
+    background-color: whitesmoke;
+}
+.devicon-html5-plain{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-css3-plain{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-sass-original{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-javascript-plain{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-react-original{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-git-plain{
+    font-size: 100px;
+   align-items: center;
+}
+.skill-title1{
+    font-size: 1.25em;
+    font-weight: 700;
+    text-align: center;
+    
+}.skill-title2{
+    font-size: 1.25em;
+   text-align: center;
+    
+}.skill-title3{
+    font-size: 1.25em;
+    text-align: center;
+}.skill-title4{
+    font-size: 1.25em;
+    text-align: center;
+    
+}.skill-title5{
+    font-size: 1.25em;
+    text-align: center;
+    
+}.skill-title6{
+    font-size: 1.25em;
+    text-align: center;
+    
+}
+.skill-grid-item:hover{
+    display: flex;
+    color: #000000;
+    border: 0.12em solid #3b104d; 
+    border-radius: 20%;
+    margin-left: 3em;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: rgb(250, 241, 246);
+}
+.devicon-html5-plain:hover{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-css3-plain:hover{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-sass-original:hover{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-javascript-plain:hover{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-react-original:hover{
+    font-size: 100px;
+    align-items: center;
+}
+.devicon-git-plain:hover{
+    font-size: 100px;
+   align-items: center;
+}
+.skill-title1:hover{
+    font-size: 1.25em;
+    font-weight: 700;
+    text-align: center;
+    
+}.skill-title2:hover{
+    font-size: 1.25em;
+   text-align: center;
+    
+}.skill-title3:hover{
+    font-size: 1.25em;
+    text-align: center;
+}.skill-title4:hover{
+    font-size: 1.25em;
+    text-align: center;
+    
+}.skill-title5:hover{
+    font-size: 1.25em;
+    text-align: center;
+    
+}.skill-title6:hover{
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
+/*Media*/
+@media screen and (max-width:600px){
+    .icons-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 6em;
+
+    }
+    .column-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .skills-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .skill-grid-item{
+        margin-top: 2em;
+    }
+}
